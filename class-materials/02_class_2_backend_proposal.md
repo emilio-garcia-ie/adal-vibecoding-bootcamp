@@ -1,7 +1,7 @@
 # Class 2 Proposal: Markdown-Driven Blog & Newsletter Backend
 
 ## 🎯 Objective
-Transition from frontend vibe-coding (Day 1) to full-stack engineering. In this class, students will build a fully automated, Git-backed blog website and newsletter system. Instead of using a clunky CMS, students will write posts in Markdown, render them on a custom Next.js blog (inspired by [blog.sylph.ai](https://blog.sylph.ai/)), and push to GitHub to automatically trigger email campaigns.
+Transition from frontend vibe-coding (Day 1) to full-stack engineering. In this class, students will build a fully automated, Git-backed blog website and newsletter system. Instead of using a clunky CMS (Content Management System), students will write posts in Markdown, render them on a custom Next.js blog (inspired by [blog.sylph.ai](https://blog.sylph.ai/)), and push to GitHub to automatically trigger email campaigns.
 
 ---
 
