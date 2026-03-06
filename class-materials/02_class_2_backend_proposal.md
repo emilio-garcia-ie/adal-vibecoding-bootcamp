@@ -12,7 +12,7 @@ The architecture follows a modern, decoupled "Git-as-CMS" pattern:
 - **Content Layer (Git):** Markdown files with YAML frontmatter act as the single source of truth for all blog content.
 - **Frontend (Next.js 14 + Tailwind):** Statically generates blog pages from the local `.md` files for blazing fast SEO and performance.
 - **Backend (Node.js + Express):** A lightweight API responsible for managing newsletter subscribers and handling the secure dispatch of emails.
-- **Database (PostgreSQL + Prisma):** Stores subscriber lists and tracks which posts have already been emailed (idempotency).
+- **Database (PostgreSQL + Prisma):** Stores subscriber lists and tracks which posts have already been emailed ([idempotency](https://en.wikipedia.org/wiki/Idempotence#:~:text=Idempotence%20(UK:%20/%CB%8C%C9%AA,potence%20(same%20+%20power).).
 - **Email Delivery (Resend API):** Integrated with the **Resend API** for high-deliverability, styled HTML emails.
 - **Payments (use Stripe):** authors can offer paid or free subscriptions for their publications (every post can be free or paid). 
 
